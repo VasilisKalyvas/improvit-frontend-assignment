@@ -1,0 +1,13 @@
+.users-length {
+    white-space: nowrap;
+    font-size: x-large;
+    font-weight: 600;
+    padding-left: 24px;
+}
+
+@media (max-width: 399px) {
+
+    .users-length {
+        font-size: large;
+    }
+}
