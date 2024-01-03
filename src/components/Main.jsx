@@ -15,7 +15,7 @@ const Main = () => {
     try {
       setIsLoading(true)
 
-      const response = await axios.get('http://jsonplaceholder.typicode.com/users')
+      const response = await axios.get('https://jsonplaceholder.typicode.com/users')
 
       if(response?.data?.length) {
         setUsers(response?.data)
